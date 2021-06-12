@@ -17,5 +17,5 @@ rte = input("Enter rate per hour:")  # Gets hourly rate from user
 h = float(hrs)  # Converts input hours(string) to float
 r = float(rte)  # Converts input rate(string) to float
 
-pay = computepay(h, r)
+pay = computepay(h, r)  # calls computepay function
 print(pay)
